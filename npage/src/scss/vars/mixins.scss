@@ -1,0 +1,162 @@
+@mixin colors($color, $color-text) {
+
+    /*BUTTONS*/
+    .btn.btn-#{$color-text} {
+        border: 1px solid $color !important;
+        color: $color!important;
+
+        &.outline {
+            color: $color !important;
+            background: transparent !important;
+            border-color: $color !important;
+        }
+    }
+    /*TEXT COLOR*/
+    .color-#{$color-text} {
+        color: $color !important;
+    }
+
+    @media (min-width: $screen-xsm) {
+        .color-xsm-#{$color-text} {
+            color: $color !important;
+        }
+    }
+
+    @media (min-width: $screen-sm) {
+        .color-sm-#{$color-text} {
+            color: $color !important;
+        }
+    }
+
+    @media (min-width: $screen-md) {
+        .color-md-#{$color-text} {
+            color: $color !important;
+        }
+    }
+
+    @media (min-width: $screen-lg) {
+        .color-lg-#{$color-text} {
+            color: $color !important;
+        }
+    }
+
+    /*TEXT COLOR OPACITY*/
+    @for $i from 0 through 20 {
+        .color-#{$color-text}-#{$i*5} {
+            color: rgba($color, $i/100*5) !important;
+        }
+    }
+
+    /*BACKGROUND HOVER COLOR*/
+    .bg-hover-#{$color-text} {
+        transition: all $slow !important;
+        cursor: pointer !important;
+
+        &:hover {
+            background: $color !important;
+        }
+    }
+
+    /*BACKGORUND HOVER OPACITY*/
+    @for $i from 0 through 20 {
+        .bg-hover-#{$color-text}-#{$i*5} {
+            transition: all $slow !important;
+            cursor: pointer !important;
+
+            &:hover {
+                background: rgba($color, $i/100*5) !important;
+            }
+        }
+    }
+
+    /*COLOR HOVER COLOR*/
+    .color-hover-#{$color-text} {
+        transition: all $slow !important;
+
+        &:hover {
+            color: $color !important;
+            fill: $color !important;
+
+            * {
+                color: $color !important;
+                fill: $color !important;
+            }
+        }
+    }
+
+    /*TEXT COLOR HOVER OPACITY*/
+    @for $i from 0 through 20 {
+        .color-hover-#{$color-text}-#{$i*5} {
+            transition: all $slow !important;
+
+            &:hover {
+                color: rgba($color, $i/100*5) !important;
+                fill: rgba($color, $i/100*5) !important;
+
+                * {
+                    color: rgba($color, $i/100*5) !important;
+                    fill: rgba($color, $i/100*5) !important;
+                }
+            }
+        }
+    }
+
+    /*BORDER COLOR*/
+    .border-color-#{$color-text} {
+        border-color: $color !important;
+    }
+
+    .border-top-color-#{$color-text} {
+        border-top-color: $color !important;
+    }
+
+    .border-right-color-#{$color-text} {
+        border-right-color: $color !important;
+    }
+
+    .border-bottom-color-#{$color-text} {
+        border-bottom-color: $color !important;
+    }
+
+    .border-left-color-#{$color-text} {
+        border-left-color: $color !important;
+    }
+
+    /*BACKGORUND COLOR*/
+    .bg-#{$color-text} {
+        background: $color !important;
+    }
+
+    .bg-real-white-white {
+        background: $white;
+        background: -moz-linear-gradient(top, $white 0%, $real-white 100%);
+        background: -webkit-linear-gradient(top, $white  0%,$real-white 100%);
+        background: linear-gradient(to bottom, $white  0%,$real-white 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e9efff',GradientType=0 );
+    }
+
+    /*BACKGORUND OPACITY*/
+    @for $i from 0 through 20 {
+        .bg-#{$color-text}-#{$i*5} {
+            background: rgba($color, $i/100*5) !important;
+        }
+
+        .bg-#{$color-text}-darken-#{$i*5} {
+            background: darken($color, $i) !important;
+        }
+    }
+}
+
+@include colors($white, $white-text);
+@include colors($real-white, $real-white-text);
+@include colors($black, $black-text);
+
+@include colors($error, $error-text);
+@include colors($success, $success-text);
+
+@include colors($primary, $primary-text);
+@include colors($secondary, $secondary-text);
+@include colors($theriary, $theriary-text);
+
+@include colors($grey1, $grey1-text);
+@include colors($grey2, $grey2-text);

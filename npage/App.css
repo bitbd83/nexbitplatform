@@ -1,0 +1,215 @@
+html,
+body {
+  background-color: #696969;
+}
+
+.modal-ul {
+  color: black;
+  list-style-type: none;
+}
+.modal-ul li {
+  padding: 10px;
+  margin: 10px;
+}
+.link {
+  text-decoration: none;
+  padding: 10px;
+  margin: 10px;
+}
+.modal-ul .link {
+  font-size: 14px;
+  padding: 10px;
+  margin: 10px;
+  color: black;
+  font-family: "Comic Sans MS";
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.modal-ul li .link:hover {
+  color: coral;
+}
+.wrapper {
+  position: relative;
+  overflow: hidden;
+  width: 335px;
+  height: 321px;
+  border: 2px solid black;
+  background-color: #403434;
+}
+
+.slide {
+  position: absolute;
+  bottom: -321px;
+  width: 250px;
+  height: 270px;
+  transition: 1s ease-in-out;
+  border-radius: 200px 0px 400px 0px;
+}
+
+.wrapper:hover .slide {
+  transition: 1s;
+  bottom: 0;
+}
+
+.next-gen {
+  color: #d8bfd8;
+  margin-top: 110px;
+  margin-left: 300px;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+  font-family: verdana;
+}
+.next-gen-para {
+  color: #d8bfd8;
+  margin-left: 320px;
+  font-size: 17px;
+  font-weight: bold;
+  font-style: italic;
+  font-family: verdana;
+}
+.card {
+  max-width: 400;
+  border: 2px solid #403434;
+  margin: 5px;
+}
+.book-online-button {
+  margin-left: 350px;
+  margin-top: 10px;
+  background-color: #654b6b;
+  padding: 10px;
+  border: 3px solid white;
+  opacity: 0.8;
+  border-radius: 30px;
+  width: 150px;
+  height: 50px;
+}
+.book-online-button:hover {
+  background-color: #696969;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .book-online-button {
+    margin-left: 25px;
+    background-color: rgb(172, 204, 172, 0.7);
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 30px;
+    width: 150px;
+    height: 50px;
+  }
+  .card {
+    display: none;
+  }
+  .next-gen {
+    color: #d8bfd8;
+    margin-top: 110px;
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: verdana;
+  }
+  .next-gen-para {
+    color: #d8bfd8;
+    margin-left: 50px;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: verdana;
+  }
+  .wrapper {
+    position: relative;
+    overflow: hidden;
+    width: 140px;
+    height: 323px;
+    border: 1px solid black;
+  }
+  .slide {
+    position: absolute;
+    bottom: -321px;
+    width: 135px;
+    height: 280px;
+    transition: 1s ease-in-out;
+    border-radius: 400px 0px 400px 0px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 800px) {
+  .book-online-button {
+    margin-left: 80px;
+    background-color: rgb(172, 204, 172, 0.7);
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 30px;
+    width: 150px;
+    height: 50px;
+  }
+  .card {
+    display: none;
+  }
+  .next-gen {
+    color: #d8bfd8;
+    margin-top: 100px;
+    margin-left: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: verdana;
+  }
+  .next-gen-para {
+    color: #d8bfd8;
+    margin-left: 100px;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: verdana;
+  }
+  .wrapper {
+    position: relative;
+    overflow: hidden;
+    width: 260px;
+    height: 323px;
+    border: 1px solid black;
+  }
+  .slide {
+    position: absolute;
+    bottom: -323px;
+    width: 260px;
+    height: 320px;
+    transition: 1s ease-in-out;
+    border-radius: 400px 0px 400px 0px;
+  }
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px 1px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}

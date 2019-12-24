@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+
+@import './vars/vars';
+@import './vars/colors';
+@import './vars/mixins';
+@import './vars/helpers';
+
+@import './elements/buttons';
+@import './elements/form';
+
+// body {
+//   font-family: 'Lato', sans-serif;
+//   letter-spacing: 0.01em;
+//   min-width: 300px !important;
+//   overflow-x: hidden;
+
+//   * {
+//     color: $grey1;
+//   }
+// }
+
+// header {
+// 	&.header-changed {
+// 		background: $secondary!important;
+// 	}
+// }
+
+// section {
+//   position: relative;
+//   padding: 3rem 0;
+
+//   .container {
+//     background-image: url('../Assets/img/elipse.png');
+//     position: relative;
+//     z-index: 1;
+//   }
+// }
+
+// 	.media {
+// 		height: 100%;
+// 		position: absolute;
+// 		top: 0;
+// 		left: 0;
+// 		width: 100%;
+// 		z-index: 0;
+
+// 		img {
+// 			position: absolute;
+// 			width: 100%;
+
+// 			&.reverse {
+// 				transform: rotateY(180deg);
+// 			}
+// 		}
+
+// 		&.media-grey {
+// 			img {
+// 				filter: grayscale(80%);
+// 				top: -25%;
+// 			}
+// 		}
+// 	}
+
+// 	.box-hover {
+// 		transition: box-shadow .3s;
+
+// 		img {
+// 			margin-top: 15px;
+// 		}
+
+// 		a {
+// 			opacity: 0;
+// 			transition: opacity .3s;
+
+// 			@media(max-width: $screen-md) {
+// 				opacity: 1;
+// 			}
+// 		}
+
+// 		&:hover {
+// 			box-shadow: 0 20px 40px rgba($secondary, .05);
+
+// 			a {
+// 				opacity: 1;
+// 			}
+// 		}
+// 	}
+// }
+
+//NAVIGATION EDIT
+// @media(max-width: $screen-md) {
+// 	header#header {
+// 		background: $secondary !important;
+
+// 		.nav-content {
+// 			display: none;
+// 		}
+// 	}
+
+// 	.mobile-fix {
+// 		position: fixed;
+// 		bottom: -1px;
+// 		left: 0;
+// 		width: 100%;
+// 		padding: 15px;
+// 		background: $grey1;
+// 	}
+// 	body {
+// 		padding-bottom: 65px;
+// 	}
+// }
