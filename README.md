@@ -1,37 +1,46 @@
-## Welcome to GitHub Pages
+##nPage v1.0.0 [ unlicensed ]
+Developed by: BitBD GPG key ID: 75CEBDE82D6BECC940EC0D22B3E38C4A2BBDBA1E
+********************************************************************
+This project developed for https://www.quantaex.com
 
-You can use the [editor on GitHub](https://github.com/bitbd83/nexbitplatform/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Available Scripts
 
-### Markdown
+In the project directory, you can run:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### `npm start`
 
-```markdown
-Syntax highlighted code block
+Runs the app in the development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-# Header 1
-## Header 2
-### Header 3
+The page will reload if you make edits.<br>
+You will also see any lint errors in the console.
 
-- Bulleted
-- List
+### `npm test`
 
-1. Numbered
-2. List
+Launches the test runner in the interactive watch mode.<br>
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-**Bold** and _Italic_ and `Code` text
+### `npm run build`
 
-[Link](url) and ![Image](src)
-```
+Builds the app for production to the `build` folder.<br>
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+The build is minified and the filenames include the hashes.<br>
+Your app is ready to be deployed!
 
-### Jekyll Themes
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/bitbd83/nexbitplatform/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### `npm run eject`
 
-### Support or Contact
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+NEXBIT.IO
+https://platform.nexbit.io
